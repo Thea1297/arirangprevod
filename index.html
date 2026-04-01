@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS - ARIRANG Prevodi za Mamu</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #f4f4f9; color: #333; max-width: 800px; margin: auto; padding: 20px; }
+        h1 { color: #7d58ff; text-align: center; border-bottom: 2px solid #7d58ff; padding-bottom: 10px; }
+        .pesma-naslov { color: #2c3e50; margin-top: 40px; border-left: 5px solid #7d58ff; padding-left: 15px; }
+        .stih-blok { margin-bottom: 25px; position: relative; }
+        
+        /* Engleski stih sa hoverom */
+        .eng-stih { font-weight: bold; font-size: 1.1em; cursor: help; border-bottom: 1px dotted #7d58ff; display: inline-block; }
+        
+        /* Srpski prevod ispod */
+        .srp-stih { display: block; font-style: italic; color: #666; margin-top: 5px; font-size: 0.95em; }
+
+        /* Metafora koja iskače (Tool-tip) */
+        .eng-stih:hover::after {
+            content: attr(data-metafora);
+            position: absolute;
+            bottom: 110%;
+            left: 0;
+            background: #2c3e50;
+            color: #fff;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            font-weight: normal;
+            width: 280px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BTS: ARIRANG - Prevodi i Metafore</h1>
+    <p style="text-align: center; color: #888;"><i>Napravljeno s ljubavlju za mamu. Pređi mišem preko engleskog teksta za objašnjenje.</i></p>
+
+    <h2 class="pesma-naslov">1. Arirang (Intro)</h2>
+
+    <div class="stih-blok">
+        <span class="eng-stih" data-metafora="Arirang je tradicionalna pesma o rastanku i nadi. Za BTS, ovo je prelazak iz vojničkog života nazad u svet muzike.">
+            Crossing over Arirang Pass
+        </span>
+        <span class="srp-stih">Prelazim preko prevoja Arirang</span>
+    </div>
+
+    <div class="stih-blok">
+        <span class="eng-stih" data-metafora="Ovde se 'zvezde' odnose na fanove koji su ih čekali u mraku dok su oni bili odsutni.">
+            The stars were waiting in the silence
+        </span>
+        <span class="srp-stih">Zvezde su čekale u tišini</span>
+    </div>
+
+</body>
+</html>
