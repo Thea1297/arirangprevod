@@ -3,29 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTS - ARIRANG Prevodi za Mamu</title>
+    <title>BTS - ARIRANG Prevod za Mamu</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #fdfbff; color: #333; max-width: 800px; margin: auto; padding: 20px; }
-        
-        /* Naslov i Meni */
         header { text-align: center; padding: 40px 0; background: #f3efff; border-radius: 15px; margin-bottom: 30px; }
         h1 { color: #7d58ff; margin: 0; font-size: 2em; }
         .meni { margin-top: 20px; padding: 10px; background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         .meni a { color: #7d58ff; text-decoration: none; margin: 0 10px; font-weight: bold; font-size: 0.9em; }
-        .meni a:hover { text-decoration: underline; }
-
-        /* Pesme sekcije */
         .pesma-sekcija { margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
         h2 { color: #2c3e50; border-left: 5px solid #7d58ff; padding-left: 15px; margin-bottom: 30px; }
-        
         .stih-blok { margin-bottom: 25px; position: relative; }
-        
-        /* Glavni stilovi za stihove */
         .eng-stih { font-weight: bold; font-size: 1.1em; cursor: help; border-bottom: 1px dotted #7d58ff; display: inline-block; transition: 0.3s; }
         .eng-stih:hover { background-color: #f3efff; color: #5a36cc; }
         .srp-stih { display: block; font-style: italic; color: #666; margin-top: 5px; font-size: 0.95em; }
-
-        /* Metafora koja iskače (Desktop) */
+        
+        /* Metafora koja iskače */
         .eng-stih:hover::after {
             content: attr(data-metafora);
             position: absolute;
@@ -42,69 +34,85 @@
             z-index: 100;
         }
 
-        /* Dodatak za mobilni - da metafora ne pobegne sa ekrana */
         @media (max-width: 600px) {
-            .eng-stih:hover::after { width: 200px; left: 10px; }
+            .eng-stih:hover::after { width: 220px; left: 0; bottom: 130%; }
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>ARIRANG: Prevod za Mamu</h1>
-        <p>Sve tajne i metafore novog BTS albuma na jednom mestu.</p>
-        
+        <h1>BTS: ARIRANG - Prevod za Mamu</h1>
         <div class="meni">
             <strong>Izaberi pesmu:</strong><br>
-            <a href="#arirang">1. Arirang</a> | 
-            <a href="#normal">2. Normal</a> | 
-            <a href="#hooligan">3. Hooligan</a> |
-            <a href="#swim">4. Swim</a>
+            <a href="#arirang">1. Arirang (Naslovna)</a> | 
+            <a href="#normal">2. Normal</a>
         </div>
     </header>
 
     <div id="arirang" class="pesma-sekcija">
-        <h2>Body to Body</h2>
-        
+        <h2>1. Arirang</h2>
+
         <div class="stih-blok">
-            <span class="eng-stih" data-metafora="">
-                [Intro: j-hope, RM]
-                I need, I need, I need (What you need, twin?)
+            <span class="eng-stih" data-metafora="Pesma počinje pitanjem 'šta ti treba' - jer su se tek vratili i žele da znaju šta su fanovi najviše propustili.">
+                I need, I need (What you need, twin?)
             </span>
-            <span class="srp-stih">Treba mi, treba mi, treba mi (Sta ti treba, brate?)</span>
+            <span class="srp-stih">Treba mi, treba mi (šta ti treba, brate)</span>
         </div>
+
         <div class="stih-blok">
-            <span class="eng-stih" data-metafora="Arirang je tradicionalna korejska pesma koja simbolizuje tugu zbog rastanka, ali i veru u ponovni susret.">
-                I need (What you need?)
-                I need, I need
+            <span class="eng-stih" data-metafora="BTS često kritikuju trend gde ljudi na koncertima samo snimaju telefonom umesto da uživaju u trenutku.">
+                Put your phone down, let's get all the fun
             </span>
-            <span class="srp-stih">Treba mi (Sta ti treba?)</span>
-            </span>
-            <span class="srp-stih">Treba mi, treba mi</span>
+            <span class="srp-stih">Spustite telefone, hajde da se zabavimo</span>
         </div>
-        
+
+        <div class="stih-blok">
+            <span class="eng-stih" data-metafora="Odnosi se na 'tastatura ratnike' (hejtere) na internetu. Kažu da je život prekratak za tu vrstu mržnje.">
+                Put away the guns, knives, keyboards. Life is too short for hate.
+            </span>
+            <span class="srp-stih">Sklonite pištolje, noževe i tastature. Život je kratak da se mrzite.</span>
+        </div>
+
+        <div class="stih-blok">
+            <span class="eng-stih" data-metafora="Žele da budu blizu svojih fanova nakon duge pauze. 'Koža na kožu' je metafora za iskrenost i ljudsku povezanost.">
+                Hop in, come closer skin to skin
+            </span>
+            <span class="srp-stih">Upadaj, priđi bliže, koža na kožu</span>
+        </div>
+
+        <div class="stih-blok">
+            <span class="eng-stih" data-metafora="Ovo je klasična BTS poruka - zajedno sa fanovima idu do meseca, do samog vrha.">
+                Hand in hand, you and I, reaching for the moon
+            </span>
+            <span class="srp-stih">Ruku pod ruku, ti i ja, do meseca pa i dalje</span>
+        </div>
+
+        <div class="stih-blok">
+            <span class="eng-stih" data-metafora="Ovo je najpoznatiji stih korejske narodne muzike. Arirang prevoj je mesto rastanka.">
+                Arirang, Arirang, Arariyo... Crossing Arirang Pass
+            </span>
+            <span class="srp-stih">Arirang, Arirang, Arariyo... Preko brda Arirang prelazimo</span>
+        </div>
+
+        <div class="stih-blok">
+            <span class="eng-stih" data-metafora="U staroj pesmi se kaže da onoga ko napusti voljenu osobu snađe nesreća. Ovde kažu da im je žao onih koji su odustali od njih.">
+                One who leaves me... their feet will hurt before ten miles.
+            </span>
+            <span class="srp-stih">Onaj ko me napusti i ode... neće preći ni deset milja pre nego što ga noge zabole</span>
+        </div>
+
+        <div class="stih-blok">
+            <span class="eng-stih" data-metafora="Završavaju tako što uključuju ceo stadion, bez obzira gde ko sedi - svi su deo porodice.">
+                You at the side, at the back, at the front!
+            </span>
+            <span class="srp-stih">Vi sa strane, vi pozadi, vi napred!</span>
+        </div>
+
     </div>
 
     <div id="normal" class="pesma-sekcija">
         <h2>2. Normal</h2>
-        
-        <div class="stih-blok">
-            <span class="eng-stih" data-metafora="Odnosi se na njihovo poreklo. Iako su svetski poznati, i dalje se osećaju kao ona ista deca iz Daegua, Busana i Seula.">
-                Under the skin, I'm just a boy from a small town
-            </span>
-            <span class="srp-stih">Ispod kože, ja sam samo dečak iz malog grada</span>
-        </div>
-
-        <div class="stih-blok">
-            <span class="eng-stih" data-metafora="Priznaju da slava donosi svetlost, ali da svaka slava ima i svoju 'senku' - težinu i žrtvu.">
-                The stage lights are bright, but I see the shadows too
-            </span>
-            <span class="srp-stih">Scenska svetla su jaka, ali vidim i senke</span>
-        </div>
-    </div>
-
-    <div id="hooligan" class="pesma-sekcija">
-        <h2>3. Hooligan</h2>
         <p style="color: #888;"><i>Tekst u pripremi...</i></p>
     </div>
 
