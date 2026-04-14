@@ -2,76 +2,134 @@
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS - SWIM Prevodi</title>
     <style>
-        body { font-family: sans-serif; max-width: 1000px; margin: auto; padding: 20px; line-height: 1.6; }
-        /* Centriranje videa */
+        body {
+            /* Ovde stavi ime slike koju si skinula za SWIM */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('swim-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #d32f2f;
+            font-weight: bold;
+            transition: 0.3s;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+
+        .back-link:hover { transform: translateX(-5px); }
+
+        h1 {
+            text-align: center;
+            color: #d32f2f;
+            font-size: 3.5em;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
         .video-container {
             display: flex;
             justify-content: center;
-            margin: 30px 0;
+            margin: 40px 0;
         }
-        
-        /* Zaobljene ivice za video */
-        iframe { border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
 
-        /* Ljubičasti naslov */
-        h1 { text-align: center; color: #7f5eb6; margin-top: 30px; }
-        
-        /* Boja pozadine celog sajta */
-        body { background-color: #fcfaff; }
-        
-        /* Kontejner koji pravi dve kolone */
+        iframe {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 100%;
+        }
+
         .prevod-kontejner {
             display: flex;
-            gap: 40px; /* Razmak između originala i prevoda */
+            gap: 50px;
+            max-width: 1100px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.6);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
 
-        /* Podešavanja za obe kolone */
         .kolona {
-            flex: 1; /* Obe kolone zauzimaju istu širinu */
-            white-space: pre-line; /* Ključno: poštuje tvoje Entere iz Worda */
+            flex: 1;
+            white-space: pre-line;
+            font-size: 1.1em;
         }
 
-        .original { color: #666; font-style: italic; }
-        .srpski { font-weight: bold; color: #222; }
-        .back-link { display: block; margin-bottom: 20px; text-decoration: none; color: #7f5eb6; }
+        .original { color: #555; font-style: italic; border-right: 1px solid rgba(211, 47, 47, 0.1); padding-right: 25px; }
+        .srpski { font-weight: 600; color: #111; padding-left: 5px; }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 60px;
+            font-size: 0.85em;
+            color: #666;
+            border-top: 1px solid rgba(211, 47, 47, 0.2);
+        }
+
+        .disclaimer { font-size: 0.8em; margin-top: 10px; font-style: italic; }
+
+        @media (max-width: 768px) {
+            .prevod-kontejner { flex-direction: column; gap: 30px; padding: 20px; }
+            .original { border-right: none; border-bottom: 1px solid rgba(211, 47, 47, 0.1); padding-bottom: 20px; }
+            h1 { font-size: 2.2em; }
+        }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-link">← Nazad na listu pesama</a>
+
+    <a href="index.html" class="back-link">← NAZAD NA ALBUM</a>
+    
     <h1>SWIM</h1>
+
     <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h-Y97xErGL8?si=m5ROk13h68NJyAVX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h-Y97xErGL8?si=m5ROk13h68NJyAVX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
     <div class="prevod-kontejner">
-        <div class="kolona original">
-            [Chorus: Jung Kook, Jimin]
-            Swim, swim
-            Water falling off your skin
-            Swim, swim
-            I could spend a lifetime watching you
-            Swim, swim
-            This is how it all begins
-            Swim, swim
-            I just wanna dive, I just wanna dive
+        <div class="kolona original">[Chorus: Jung Kook, Jimin]
+Swim, swim
+Water falling off your skin
+Swim, swim
+I could spend a lifetime watching you
+Swim, swim
+This is how it all begins
+Swim, swim
+I just wanna dive, I just wanna dive
 
-            [Verse 1: RM]
-            Bad world, gone away and I still wake up in this mad world
-            Name a place that I could breathe on this map, world
-            Lookin' like a goody, goody in this bad world, bad world
-            Don't know how to act, girl
-            I'm in the deep, tell me, where the hell you at, girl?
-            Oh, you ain't even gotta love me bad, girl
-            You know that I'm never holdin' back, girl
-            Yeah
+[Verse 1: RM]
+Bad world, gone away and I still wake up in this mad world
+Name a place that I could breathe on this map, world
+Lookin' like a goody, goody in this bad world, bad world
+Don't know how to act, girl
+I'm in the deep, tell me, where the hell you at, girl?
+Oh, you ain't even gotta love me bad, girl
+You know that I'm never holdin' back, girl
+Yeah
 
-            [Pre-Chorus: Jung Kook]
+[Pre-Chorus: Jung Kook]
 So easy, don't make it so hard
 Nights like these, I just wanna get lost
 Right here with the moon and the sharks
 I ain't gotta think 'bout a thing, baby, I just
 
-            [Chorus: Jimin, V]
+[Chorus: Jimin, V]
 Swim, swim
 Water falling off your skin
 Swim, swim
@@ -81,7 +139,7 @@ This is how it all begins
 Swim, swim
 I just wanna dive, I just wanna dive
 
-            [Verse 2: SUGA]
+[Verse 2: SUGA]
 Water, water so deep, water so deep
 Take it off the ground, I ain't never gettin' cold feet
 Yeah, you know me, yeah, you know me
@@ -91,7 +149,7 @@ Why you run away? You can run in (Yeah)
 Salt on my tongue, she's stunnin' (Yeah)
 You're the only place that I wanna be, yeah
 
-            [Chorus: Jung Kook, Jin]
+[Chorus: Jung Kook, Jin]
 Swim, swim
 Water falling off your skin
 Swim, swim
@@ -101,7 +159,7 @@ This is how it all begins
 Swim, swim
 I just wanna dive, I just wanna dive (Hey)
 
-            [Verse 3: j-hope]
+[Verse 3: j-hope]
 Splash (Splash), drift (Drift)
 I make waves with my two fins (Two fins)
 Splash (Woo), drip (Drip)
@@ -111,7 +169,7 @@ Baby, everything can't be so sad (So sad)
 Turn my face from the land
 I just wanna dive, I just wanna dive
 
-            [Chorus: V, Jin]
+[Chorus: V, Jin]
 Swim, swim
 Water falling off your skin
 Swim, swim
@@ -119,87 +177,92 @@ I could spend a lifetime watching you
 Swim (Swim), swim (Swim)
 Let it all begin
 Swim, swim
-I just wanna dive, I just wanna dive
-        </div>
+I just wanna dive, I just wanna dive</div>
 
-        <div class="kolona srpski">
-            [Refren: Jung Kook, Jimin]
-            Plivaj, plivaj
-            Voda ti klizi niz kožu
-            Plivam, plivam
-            Mogu ceo život provesti gledajući te
-            Plivaj, plivaj
-            Ovako sve počinje
-            Plivam, plivam
-            Samo želim da zaronim, samo želim da zaronim
+        <div class="kolona srpski">[Refren: Jung Kook, Jimin]
+Plivaj, plivaj
+Voda ti klizi niz kožu
+Plivam, plivam
+Mogu ceo život provesti gledajući te
+Plivaj, plivaj
+Ovako sve počinje
+Plivam, plivam
+Samo želim da zaronim, samo želim da zaronim
 
-            [Verse 1: RM]
-            Loš svet, sve je u rasulu, i dalje se budim u ovom ludom svetu
-            Pokaži mi na ovoj mapi mesto gde mogu da dišem, svete
-            Izgledam kao glupan u ovom lošem, lošem svetu
-            Ne znam kako da se postavim, devojko
-            Duboko sam, reci mi gde si ti, dođavola, devojko?
-            Ne moraš me čak ni ludo voleti
-            Znaš da se ja nikada ne ustručavam
-            Yeah
+[Verse 1: RM]
+Loš svet, sve je u rasulu, i dalje se budim u ovom ludom svetu
+Pokaži mi na ovoj mapi mesto gde mogu da dišem, svete
+Izgledam kao glupan u ovom lošem, lošem svetu
+Ne znam kako da se postavim, devojko
+Duboko sam, reci mi gde si ti, dođavola, devojko?
+Ne moraš me čak ni ludo voleti
+Znaš da se ja nikada ne ustručavam
+Yeah
 
-            [Pre-Chorus: Jung Kook]
-            Tako je lako, ne otežavaj mi
-            Noći kao ove, samo želim da se izgubim
-            Baš ovde uz mesec i ajkule
-            Ne moram ni o čemu razmišljati, draga, ja samo
-            
- [Chorus: Jimin, V]
-            Plivaj, plivaj
-            Voda ti klizi niz kožu
-            Plivam, plivam
-            Mogu ceo život provesti gledajući te
-            Plivaj, plivaj
-            Ovako sve počinje
-            Plivam, plivam
-            Samo želim da zaronim, samo želim da zaronim
+[Pre-Chorus: Jung Kook]
+Tako je lako, ne otežavaj mi
+Noći kao ove, samo želim da se izgubim
+Baš ovde uz mesec i ajkule
+Ne moram ni o čemu razmišljati, draga, ja samo
 
-            [Verse 2: SUGA]
-            Voda, voda je tako duboka
-            Dižem se sa tla, nikada ne oklevam
-            Da, znaš me, znaš ti mene
-            Sedeo na obali, sad sam spreman za celo more
-            Osećam da dolaze visoki talasi
-            Zašto bežiš? Možeš da utrčiš (u njih)
-            So na mom jeziku, kako je zaprepašćujuće lepa
-            Ti si jedino mesto na kojem želim biti
+[Refren: Jimin, V]
+Plivaj, plivaj
+Voda ti klizi niz kožu
+Plivam, plivam
+Mogu ceo život provesti gledajući te
+Plivaj, plivaj
+Ovako sve počinje
+Plivam, plivam
+Samo želim da zaronim, samo želim da zaronim
 
-            [Chorus: Jung Kook, Jin]
-            Plivaj, plivaj
-            Voda ti klizi niz kožu
-            Plivam, plivam
-            Mogu ceo život provesti gledajući te
-            Plivaj, plivaj
-            Ovako sve počinje
-            Plivam, plivam
-            Samo želim da zaronim, samo želim da zaronim
+[Verse 2: SUGA]
+Voda, voda je tako duboka
+Dižem se sa tla, nikada ne oklevam
+Da, znaš me, znaš ti mene
+Sedeo na obali, sad sam spreman za celo more
+Osećam da dolaze visoki talasi
+Zašto bežiš? Možeš da utrčiš (u njih)
+So na mom jeziku, kako je zaprepašćujuće lepa
+Ti si jedino mesto na kojem želim biti
 
-            [Verse 3: j-hope]
-            Prskaj (Prskaj), plovi (Plovi)
-            Pravim talase sa svoja dva peraja
-            Prskaj (Woo), curi (Curi)
-            Samo želim da pređem liniju
-            Ovde dole, mi se ne žurimo
-            Dušo, ne može sve biti tako tužno
-            Okrećem leđa ka kopnu
-            Samo želim da zaronim, samo želim da zaronim
+[Refren: Jung Kook, Jin]
+Plivaj, plivaj
+Voda ti klizi niz kožu
+Plivam, plivam
+Mogu ceo život provesti gledajući te
+Plivaj, plivaj
+Ovako sve počinje
+Plivam, plivam
+Samo želim da zaronim, samo želim da zaronim
 
-[Chorus: V, Jin]
-            Plivaj, plivaj
-            Voda ti klizi niz kožu
-            Plivam, plivam
-            Mogu ceo život provesti gledajući te
-            Plivaj, plivaj
-            Neka sve počne
-            Plivam, plivam
-            Samo želim da zaronim, samo želim da zaronim
-            
-        </div>
+[Verse 3: j-hope]
+Prskaj (Prskaj), plovi (Plovi)
+Pravim talase sa svoja dva peraja
+Prskaj (Woo), curi (Curi)
+Samo želim da pređem liniju
+Ovde dole, mi se ne žurimo
+Dušo, ne može sve biti tako tužno
+Okrećem leđa ka kopnu
+Samo želim da zaronim, samo želim da zaronim
+
+[Refren: V, Jin]
+Plivaj, plivaj
+Voda ti klizi niz kožu
+Plivam, plivam
+Mogu ceo život provesti gledajući te
+Plivaj, plivaj
+Neka sve počne
+Plivam, plivam
+Samo želim da zaronim, samo želim da zaronim</div>
     </div>
+
+    <footer>
+        <p>© 2026 Made with ❤️ by Thea1297</p>
+        <div class="disclaimer">
+            All rights to the songs and visual content belong to BTS and BigHit Music. <br>
+            This website is a non-commercial fan project dedicated to translations.
+        </div>
+    </footer>
+
 </body>
 </html>
