@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: sans-serif; max-width: 1000px; margin: auto; padding: 20px; line-height: 1.6; }
+        
+        /* Kontejner koji pravi dve kolone */
+        .prevod-kontejner {
+            display: flex;
+            gap: 40px; /* Razmak između originala i prevoda */
+        }
+
+        /* Podešavanja za obe kolone */
+        .kolona {
+            flex: 1; /* Obe kolone zauzimaju istu širinu */
+            white-space: pre-line; /* Ključno: poštuje tvoje Entere iz Worda */
+        }
+
+        .original { color: #666; font-style: italic; }
+        .srpski { font-weight: bold; color: #222; }
+        .back-link { display: block; margin-bottom: 20px; text-decoration: none; color: #7f5eb6; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Nazad na listu pesama</a>
+    <h1>Naziv Pesme</h1>
+
+    <div class="prevod-kontejner">
+        <div class="kolona original">
+            [Intro]
+(Ear Drummers)
+(Mike WiLL Made-It)
+
+[Verse 1: SUGA]
+This gon' be the jam of the year (Ayy)
+지루하고 따분해 모든 게 (모든 게)
+시간은 참 빨라 tick-tock, stadium으로 집합
+도대체 뭘 더 고민해? (고민해)
+태생부터 다른 seven aliens (Ayy, ayy)
+우릴 부러워하네 저 civilians (Ayy, ayy)
+굳이 설명하기 입 아파, stadium으로 집합
+도대체 뭘 더 고민해? (고민해)
+
+[Pre-Chorus: j-hope]
+Hello, this your, hello, this your new honey
+박수 쳐, 흔들어, 중모리
+Oh my god, do I look too funny?
+뭐 어쩔래? Just move for me, yeah, move for me
+
+[Chorus: Jung Kook, V]
+From the 가나 to the 하, 우리 보고 배워놔
+Yeah, we aliens
+If you wanna hit my house, 신발은 벗어놔
+Yeah, we aliens
+어쩜 그래 shameless
+예의를 차려 we aliens
+해는 동쪽에서 risin'
+Aliens, aliens
+See BTS Live
+Get tickets as low as $85
+You might also like
+Hooligan
+BTS
+2.0
+BTS
+Body to Body
+BTS
+[Refrain: Jimin, Jin, Jung Kook]
+Every night, every day (Ooh-ooh, ooh-ooh)
+뭐든 더 빠르게 (Ooh-ooh, ooh)
+매일 밤새워대 (Ooh-ooh, ooh-ooh)
+Yeah, we livin' that aliens, aliens
+Every night, every day (Ooh-ooh, ooh-ooh)
+뭐든 더 빠르게 (Ooh-ooh, ooh)
+시대가 우릴 원해 (Ooh-ooh, ooh-ooh)
+Yeah, we livin' that aliens, aliens
+
+[Verse 2: RM]
+It goes, let me, honey, talk about the business
+Everybody know now where the K is
+어디까지 가니 이런 제길
+저주하니 아직? 흉즉대길
+Pardon, 김구 선생님, tell me how you feel (How you feel?)
+영어는 또 나밖에 못 해, but that is how we kill (Woo)
+눈만 또 허벌나게 큰 너희가 말하길
+Are they for real? For real?
+
+[Pre-Chorus: j-hope]
+Hello, this your, hello, this your new honey
+박수 쳐, 흔들어, 중모리
+Oh my god, do I look too funny?
+뭐 어쩔래? Just move for me, yeah, move for me
+[Chorus: Jimin, Jin]
+From the 가나 to the 하, 우리 보고 배워놔
+Yeah, we aliens
+If you wanna hit my house, 신발은 벗어놔
+Yeah, we aliens
+어쩜 그래 shameless
+예의를 차려, we aliens
+해는 동쪽에서 risin'
+Aliens, aliens
+
+[Refrain: Jung Kook, V, Jimin, Jin]
+Every night, every day (Ooh-ooh, ooh-ooh)
+뭐든 더 빠르게 (Ooh-ooh, ooh)
+매일 밤새워대 (Ooh-ooh, ooh-ooh)
+Yeah, we livin' that aliens, aliens
+Every night, every day (Ooh-ooh, ooh-ooh)
+뭐든 더 빠르게 (Ooh-ooh, ooh)
+시대가 우릴 원해 (Ooh-ooh, ooh-ooh)
+Yeah, we livin' that aliens, aliens
+
+[Outro: RM & SUGA & j-hope]
+(헛 둘) Yeah, we land on it
+(헛 둘) And stand on it
+(헛 둘) 찍어 put that stamp on it
+Stamp on it, stamp on it
+(헛 둘) Yeah, we land on it
+(헛 둘) And stand on it
+(헛 둘) 찍어 put that stamp on it
+Stamp on it, stamp on it
+        </div>
+
+        <div class="kolona srpski">
+            [Intro]
+(Ear Drummers)
+(Mike WiLL Made-It)
+
+[Verse 1: SUGA]
+Ovo ce biti hit godine ej
+Sve je dosadno i smorno, sve (sve)
+Vreme stvarno leti, kuc kuc,svi na stadion
+Šta još uopšte da razmišljaš? (razmišljaš)
+Sedam vanzemaljaca, drugaciji od rođenja
+Smrtnici nam zavide
+Umorih se od objasnjavanja, boli me vilica - svi na stadion!
+Šta još uopšte da razmišljaš? (razmišljaš)
+
+[Pre-Chorus: j-hope]
+Ćao, ovde tvoja, ćao, tvoja nova zvezda
+Aplaudiraj, mrdaj se, u ritmu ovom
+O bože, jesam li ti smešan
+Pa šta da radiš? Mrdaj za mene, mrdaj za mene
+
+[Chorus: Jung Kook, V]
+Od A do Š, gledaj nas i uči
+Da, mi smo vanzemaljci
+Kad mi ulazis u kuću - izuj se
+Da mi smo vanzemaljci
+Zar vas nije sramota, bezobraznici
+Pokazite poštovanja za vanzemaljce
+Sunce izlazi na istoku
+Vanzemaljci, vanzemaljci
+
+[Refrain: Jimin, Jin, Jung Kook]
+Svake noći, svakog dana (Ooh-ooh, ooh-ooh)
+Nema stajanja (Ooh-ooh, ooh)
+Svaku noć prespavamo radeći (Ooh-ooh, ooh-ooh)
+Da, zivimo kao vanzemaljci, vanzemaljci
+Svake noći, svakog dana (Ooh-ooh, ooh-ooh)
+Nema stajanja 
+Vreme je novac, nova era nas traži
+Da, živimo kao vanzemaljci, vanzemaljci
+
+[Verse 2: RM]
+Hajde dušo, daj da pričamo o biznisu
+Sada svi znaju gde je K(oreja)
+Dokle mislis tako, koj kurac?
+Još nas proklinješ? Još nas ogovaraš?
+Izvinite gospodine Kim Gu, vidite li nas sad?
+Engleski samo ja znam ovako, al' tako mi rokamo (Woo)
+Izbuljili ste se i pitate se
+Jesu li oni ozbiljni? Ozbiljno?
+
+[Pre-Chorus: j-hope]
+Ćao, ovde tvoja, ćao, tvoja nova zvezda
+Aplaudiraj, mrdaj se, u ritmu ovom
+O bože, jesam li ti smešan
+Pa šta da radiš? Mrdaj za mene, mrdaj za mene
+
+[Chorus: Jimin, Jin]
+Od A do Š, gledaj nas i uči
+Da, mi smo vanzemaljci
+Kad mi ulazis u kuću - izuj se
+Da mi smo vanzemaljci
+Zar vas nije sramota, bezobraznici
+Pokazite poštovanja za vanzemaljce
+Sunce izlazi na istoku
+Vanzemaljci, vanzemaljci
+
+[Refrain: Jung Kook, V, Jimin, Jin]
+Svake noći, svakog dana (Ooh-ooh, ooh-ooh)
+Nema stajanja (Ooh-ooh, ooh)
+Svaku noć prespavamo radeći (Ooh-ooh, ooh-ooh)
+Da, zivimo kao vanzemaljci, vanzemaljci
+Svake noći, svakog dana (Ooh-ooh, ooh-ooh)
+Nema stajanja 
+Vreme je novac, nova era nas traži
+Da, živimo kao vanzemaljci, vanzemaljci
+[Outro: RM, SUGA, j-hope]
+(Je’n-dva) Mi slecemo
+(Je’n-dva) Mi ne posustajemo
+(Je’n-dva) Udaramo pečat
+Pečatiramo, pečatiramo
+(Je’n-dva) Mi slecemo
+(Je’n-dva) Mi ne posustajemo
+(Je’n-dva) Udaramo pečat
+Pečatiramo, pečatiramo
+
+        </div>
+    </div>
+</body>
+</html>
