@@ -2,22 +2,89 @@
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTS - Arirang Prevodi</title>
+    <style>
+        body {
+            /* Ovde zameni 'logo.jpg' sa tačnim imenom slike koju skineš */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('logo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: #222;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            color: #d32f2f; /* Crvena boja koja prati temu albuma */
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-top: 50px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            list-style-type: none; /* Briše tačkice */
+            padding: 0;
+            margin-top: 30px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 30px;
+        }
+
+        /* Efekat kada pređeš mišem preko pesme */
+        a:hover {
+            color: #fff;
+            background-color: #d32f2f;
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(211, 47, 47, 0.4);
+        }
+
+        /* Mobilna verzija */
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            a { font-size: 1.2em; }
+        }
+    </style>
 </head>
 <body>
-    <h1>BTS - Arirang Album</h1>
+
+    <h1>Arirang</h1>
+    
     <ul>
         <li><a href="swim.html">SWIM</a></li>
         <li><a href="bodytobody.html">BODY TO BODY</a></li>
         <li><a href="normal.html">NORMAL</a></li>
-        <li><a href="aliens.html">Aliens</a></li>
-        <li><a href="likeanimals.html">LikeAnimals</a></li>
+        <li><a href="aliens.html">ALIENS</a></li>
+        <li><a href="likeanimals.html">LIKE ANIMALS</a></li>
         <li><a href="fya.html">FYA</a></li>
         <li><a href="20.html">2.0</a></li>
-        <li><a href="theydontknow.html">They dont know about us</a></li>
-        <li><a href="onemorenight.html">One more night</a></li>
-        <li><a href="please.html">Please</a></li>
-        <li><a href="intothesun.html">Into the sun</a></li>
+        <li><a href="theydontknow.html">THEY DON'T KNOW ABOUT US</a></li>
+        <li><a href="onemorenight.html">ONE MORE NIGHT</a></li>
+        <li><a href="please.html">PLEASE</a></li>
+        <li><a href="intothesun.html">INTO THE SUN</a></li>
     </ul>
+
 </body>
 </html>
