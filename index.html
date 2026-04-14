@@ -3,55 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTS - ARIRANG Prevod za Mamu</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #fdfbff; color: #333; max-width: 800px; margin: auto; padding: 20px; }
-        header { text-align: center; padding: 40px 0; background: #f3efff; border-radius: 15px; margin-bottom: 30px; }
-        h1 { color: #7d58ff; margin: 0; font-size: 2em; }
-        .meni { margin-top: 20px; padding: 10px; background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .meni a { color: #7d58ff; text-decoration: none; margin: 0 10px; font-weight: bold; font-size: 0.9em; }
-        .pesma-sekcija { margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
-        h2 { color: #2c3e50; border-left: 5px solid #7d58ff; padding-left: 15px; margin-bottom: 30px; }
-        .stih-blok { margin-bottom: 25px; position: relative; }
-        .eng-stih { font-weight: bold; font-size: 1.1em; cursor: help; border-bottom: 1px dotted #7d58ff; display: inline-block; transition: 0.3s; }
-        .eng-stih:hover { background-color: #f3efff; color: #5a36cc; }
-        .srp-stih { display: block; font-style: italic; color: #666; margin-top: 5px; font-size: 0.95em; }
-        
-        /* Metafora koja iskače */
-        .eng-stih:hover::after {
-            content: attr(data-metafora);
-            position: absolute;
-            bottom: 120%;
-            left: 0;
-            background: #2c3e50;
-            color: #fff;
-            padding: 15px;
-            border-radius: 10px;
-            font-size: 0.85em;
-            font-weight: normal;
-            width: 280px;
-            box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
-            z-index: 100;
-        }
-
-        @media (max-width: 600px) {
-            .eng-stih:hover::after { width: 220px; left: 0; bottom: 130%; }
-        }
-    </style>
+    <title>Prevodi za Mamu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1>BTS: ARIRANG - Prevod za Mamu</h1>
-        <div class="meni">
-            <strong>Izaberi pesmu:</strong><br>
-            <a href="#arirang">1. Arirang (Naslovna)</a> | 
-            <a href="#normal">2. Normal</a>
-        </div>
+        <h1>Specijalna kolekcija prevoda 💜</h1>
     </header>
 
-    <div id="arirang" class="pesma-sekcija">
-        <h2>1. Arirang</h2>
-
-        <div class="stih-blok">
-            <span class="eng-stih" data-metafora="Pesma počinje uvodom gde RM i J-Hope komuniciraju sa
+    <main>
+        <p>Klikni na pesmu da vidiš prevod:</p>
+        <ul class="lista-pesama">
+            <li><a href="pesma1.html">Prva Pesma (npr. Spring Day)</a></li>
+            <li><a href="pesma2.html">Druga Pesma (npr. Magic Shop)</a></li>
+        </ul>
+    </main>
+</body>
+</html>
