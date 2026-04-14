@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        body { font-family: sans-serif; max-width: 900px; margin: auto; padding: 20px; }
-        .lyrics-table { width: 100%; border-collapse: collapse; }
-        .lyrics-table td { width: 50%; padding: 10px; vertical-align: top; border-bottom: 1px solid #eee; }
-        .original { font-style: italic; color: #555; }
-        .prevod { font-weight: bold; }
-        .back-link { display: block; margin-bottom: 20px; text-decoration: none; color: blue; }
+        body { font-family: sans-serif; max-width: 1000px; margin: auto; padding: 20px; line-height: 1.6; }
+        
+        /* Kontejner koji pravi dve kolone */
+        .prevod-kontejner {
+            display: flex;
+            gap: 40px; /* Razmak između originala i prevoda */
+        }
+
+        /* Podešavanja za obe kolone */
+        .kolona {
+            flex: 1; /* Obe kolone zauzimaju istu širinu */
+            white-space: pre-line; /* Ključno: poštuje tvoje Entere iz Worda */
+        }
+
+        .original { color: #666; font-style: italic; }
+        .srpski { font-weight: bold; color: #222; }
+        .back-link { display: block; margin-bottom: 20px; text-decoration: none; color: #7f5eb6; }
     </style>
 </head>
 <body>
     <a href="index.html" class="back-link">← Nazad na listu pesama</a>
     <h1>Naziv Pesme</h1>
 
-    <table class="lyrics-table">
-        <tr>
-            <td class="original">Originalni stih 1</td>
-            <td class="prevod">Prevod stiha 1</td>
-        </tr>
-        <tr>
-            <td class="original">Originalni stih 2</td>
-            <td class="prevod">Prevod stiha 2</td>
-        </tr>
-    </table>
+    <div class="prevod-kontejner">
+        <div class="kolona original">
+            Ovde nalepi 
+            ceo tekst 
+            iz Worda
+        </div>
+
+        <div class="kolona srpski">
+            Ovde nalepi 
+            ceo tvoj prevod 
+            iz Worda
+        </div>
+    </div>
 </body>
 </html>
