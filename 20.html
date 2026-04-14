@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <style>
         body { font-family: sans-serif; max-width: 1000px; margin: auto; padding: 20px; line-height: 1.6; }
+        /* Centriranje videa */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
         
+        /* Zaobljene ivice za video */
+        iframe { border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+        /* Ljubičasti naslov */
+        h1 { text-align: center; color: #7f5eb6; margin-top: 30px; }
+        
+        /* Boja pozadine celog sajta */
+        body { background-color: #fcfaff; }
         /* Kontejner koji pravi dve kolone */
         .prevod-kontejner {
             display: flex;
@@ -24,8 +38,10 @@
 </head>
 <body>
     <a href="index.html" class="back-link">← Nazad na listu pesama</a>
-    <h1>Naziv Pesme</h1>
-
+    <h1>2.0</h1>
+<div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_gyultVTesk?si=nbZTgQL7DPSclUe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     <div class="prevod-kontejner">
         <div class="kolona original">
             [Intro]
